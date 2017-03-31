@@ -45,6 +45,6 @@ This should create a `dist/` folder that your app will execute from.
 5. Test End Points
 ============================
 
-Using a browser or utility (like Postman), end points should be at localhost:<PortNumber>
+Using a browser or utility (like Postman), end points should be at localhost:3000
 
 Still a work in progress.
