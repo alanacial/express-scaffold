@@ -12,10 +12,24 @@ npm install
 2. Setup MongoDB
 ============================
 
+Create a MongoDB
+
+Optional: mlab.com can host MongoDBs for free. See the following steps for a walk through.
+ 1) Create a free account
+ 2) Select "Create new" to create a new deployment
+ 3) Select "Single-node"
+ 4) Select Sandbox (free) under "Standard Line"
+ 5) Name the database
+ 6) Click "Create new MongoDB deployment"
+ 7) Select the deployment
+ 8) Click "Add collection"
+ 9) Type in collection name (by default type in "MongoCollection")
+ 10) Take note of the resulting MongoDB URI and drop that into the config file as seen below
+
 3. Configure
 ============================
 
-configure app by replacing the values in 'src/config.json.example' with real values,
+Configure the app by replacing the values in 'src/config.json.example' with real values,
 setting the port, as well as the username and password to the MongoDB.
 
 Then rename 'config.json.example' to just 'config.json'.
